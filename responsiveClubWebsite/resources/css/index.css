@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Alice";
+    src: url(../../resources/fonts/Alice-Regular.ttf) format('truetype');
+}
+
+.roof {
+    position: fixed;
+    width: 57.8125rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#containerRoof {
+    background-color: rgba(70, 70, 70, 0.5);
+    position: fixed;
+    color: #fff;
+    width: 100%;
+    height: 3.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoMain {
+    display: inline-flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.topMenu {
+    display: inline-flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 40%;
+    min-width: 18rem;
+    height: fit-content;
+}
+
+.phoneContainer {
+    display: inline-flex;
+    align-content: center;
+    justify-content: space-between;
+    min-width: 8rem;
+    height: fit-content;
+}
+
+.topMenu a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.0625rem;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    font-family: 'Alice', serif;
+}
+
+.main {
+    color: #fff;
+    width: 57.8125rem;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+#main {
+    background-image: url('../../resources/images/imageMain.jpeg');
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.backgroundImageMainChapter img{
+    display: flex;
+}
+
+.intro, .advantages {
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+    line-height: 2;
+}
+
+.heading, .subheading {
+    width: 70%;
+    min-width: 36rem;
+}
+
+.buttonCost, .intro, .advantages {
+    width: 48%;
+    display: inline-flex;
+}
+
+.buttonCost p {
+    text-align: center;
+    width: 30%;
+    min-width: 12rem;
+    height: 3.125rem;
+    line-height: 3.125rem;
+    background-color: #C29665;
+    border-radius: 30px;
+}
+
+.advantages {
+    justify-content: space-between;
+    line-height: 3;
+    margin-bottom: 3rem;
+}
+
+.advantages ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.advantages li {
+    list-style: none;
+    background:no-repeat url("../../resources/images/chekmarkLogo.png");
+    padding-left: 3.5rem;
+    padding-bottom: 1.5rem;
+    min-width: 30rem;
+}
+
+.symptoms {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.containerSymptoms {
+    width: 57.8125rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.containerCubeSymptoms {
+    width: 57.8125rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.symptomCube {
+    display: inline-flex;
+    width: 18.75rem;
+    height: 361px;
+    background-color: rgb(194, 150, 101, 0.4);
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.symptomCube h1 {
+    font-size: 4.5rem;
+    color: rgb(0, 0, 0, 0.43);
+}
+
+.textContainer {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 16.25rem;
+    height: 361px;
+}
+
+.paragraphAreaInCube {
+    height: 280px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.paragraphAreaInCube p {
+    margin-bottom: 0.75rem;
+}
+
+.aboutMe {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(194, 150, 101, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contentAboutMe {
+    width: 57.8125rem;
+    margin-top: 4rem;
+}
+
+.photoAndDescription {
+    display: inline-flex;
+    margin-top: 1rem;
+}
+
+.textInAboutMeDescription {
+    margin-left: 1rem;
+}
+
+.textInAboutMeDescription p {
+    margin-bottom: 1.5rem;
+}
+
+.services {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contentServices {
+    width: 57.8125rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.serviceCube {
+    background-image: url('../../resources/images/full-bloom-bezh.png');
+    width: 13rem;
+    height: 13rem;
+    margin-top: 1.25rem;
+    margin-right: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contentCube {
+    width: 11rem;
+    height: 11rem;
+}
+
+.contentCube p {
+    margin-top: 1rem;
+}
+
+.contacts {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../../resources/images/contactsBG.png');
+    color: #fff;
+}
+
+.contentContacts {
+    width: 57.8125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.contactsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactsAndOfferRectangle {
+    border: 1px solid white;
+    width: 47.5rem;
+    height: 25.125rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offerRectangle {
+    background-color: rgb(0, 0, 0);
+    display: inline-flex;
+    width: 23.75rem;
+    height: 25.125rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offerBox {
+    margin-top: 1rem;
+    width: 21.25rem;
+    height: 22.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.offerBoxHeading {
+    font-size: 1.5rem;
+}
+
+.offerButton {
+    background-color: rgb(194, 150, 101);;
+    width: 15.9375rem;
+    height: 3.125rem;
+    border-radius: 30px;
+    line-height: 3.125rem;
+    text-align: center;
+}
+
+.nameField, .phoneField, .emailField {
+    background-color: rgba(255, 255, 255);
+    color: rgb(0, 0, 0, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 3.125rem;
+    border-radius: 30px;
+    line-height: 3.125rem;
+}
+
+.nameField p, .phoneField p, .emailField p {
+    padding-left: 1rem;
+}
+
+.contactsRectangle {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+    display: inline-flex;
+    width: 23.75rem;
+    height: 25.125rem;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.textContactsBox {
+    width: 14rem;
+    height: 12.75rem;
+    margin-top: 1rem;
+}
+
+.textContactsBox p {
+    margin-bottom: 1rem;
+}
+
+.phoneNumWithIcon, .emailAddressWithIcon, .vkLinkWithIcon {
+    display: flex;
+    height: 1.5rem;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.iconForContacts {
+    display: inline-flex;
+    margin-right: 0.25rem;
+    height: 1.5rem;
+    margin-top: 0.25rem;
+    width: 1.25;
+}
+
+.descriptionOfContactInformation {
+    display: inline-flex;
+    height: 1.5rem;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentFooter {
+    display: flex;
+    width: 57.8125rem;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

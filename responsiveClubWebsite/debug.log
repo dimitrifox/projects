@@ -1,0 +1,6 @@
+[1013/215012.508:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Dmitri\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\6d982bc5-9ae9-4d5c-897d-1823bd0d87ea: Системе не удается найти указанный путь. (0x3)
+[1013/215012.524:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Dmitri\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\8953972a-478b-43a5-a6c7-f526421fd799: Системе не удается найти указанный путь. (0x3)
+[1013/215012.524:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Dmitri\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\ac783249-4ba0-4c44-9162-4030a64d8888: Системе не удается найти указанный путь. (0x3)
+[1013/215012.524:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Dmitri\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\e07cd1fc-a8fb-4dff-9305-33b4f194713d: Системе не удается найти указанный путь. (0x3)
+[1013/215012.524:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1016/110110.106:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
